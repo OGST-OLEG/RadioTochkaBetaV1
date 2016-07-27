@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ГЛАВНАЯ" />
+        <item
+            android:id="@+id/nav_combo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="КОМБО" />
+        <item
+            android:id="@+id/nav_povod_est"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ПОВОД ЕСТЬ" />
+        <item
+            android:id="@+id/nav_kto_vladeet_kz"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="КТО ВЛАДЕЕТ KZ" />
+        <item
+            android:id="@+id/nav_lifehak"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ЛАЙФХАК" />
+        <item
+            android:id="@+id/nav_multimedia"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="МУЛЬТИМЕДИА" />
+        <item
+            android:id="@+id/nav_interviu"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ИНТЕРВЬЮ" />
+        <item
+            android:id="@+id/nav_afisha"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="АФИША" />
+        <item
+            android:id="@+id/nav_gde_dengi"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ГДЕ ДЕНЬГИ" />
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="СПОРТ" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="НОВОСТИ" />
+    </group>
+
+    <item android:title="ДОПОЛНИТЕЛЬНО">
+        <menu>
+            <item
+                android:id="@+id/nav_oprogramme"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="О ПРОГРАММЕ" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ВЫХОД" />
+        </menu>
+    </item>
+
+</menu>
